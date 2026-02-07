@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Optional: раскомментируйте, если не хотите коммитить сгенерированный список
+# documents-list.json
+
+# Vercel
+.vercel

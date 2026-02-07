@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио специалиста по информационной безопасности Маркарова Михаила Оганесовича">
+    <meta name="keywords" content="информационная безопасность, SIEM, Linux, администрирование">
+    <title>Маркаров Михаил - Портфолио</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">Маркаров Михаил Оганесович</div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Главная</a></li>
+                    <li><a href="#about" class="nav-link">О себе</a></li>
+                    <li><a href="#services" class="nav-link">Услуги</a></li>
+                    <li><a href="#experience" class="nav-link">Опыт</a></li>
+                    <li><a href="#contact" class="nav-link">Контакты</a></li>
+                    <li><a href="documents.html" class="nav-link">Документы</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="halftone-bg" id="halftoneBg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="name">Михаил Маркаров</h1>
+                    <p class="description">
+                        Специалист по информационной безопасности с опытом работы с SIEM-системами, 
+                        администрирования Linux и Windows серверов, а также разработки защищенных систем.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/SeatSinister" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://t.me/seatsinister" target="_blank" class="social-icon">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://vk.com/idseat2323" target="_blank" class="social-icon">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                        <a href="mailto:markarov19@bk.ru" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <a href="#contact" class="btn-primary">Связаться со мной</a>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <div class="code-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Специалист по безопасности</span>
+                        </div>
+                        <img src="images/profile.png" alt="Михаил Маркаров" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-content">
+                <div class="about-image">
+                    <img src="images/profile.png" alt="Михаил Маркаров" class="about-profile-image">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">О <span class="highlight">себе</span></h2>
+                    <p>
+                        Я специалист по информационной безопасности с фокусом на эксплуатацию 
+                        автоматизированных систем в защищённом исполнении и администрирование 
+                        компьютерных сетей.
+                    </p>
+                    <p>
+                        За три года обучения в колледже я освоил программные средства защиты информации 
+                        и программно-аппаратные средства защиты. Имею практический опыт работы с 
+                        SIEM-системами (RuSIEM Secret Net Studio), администрирования Linux (Astra, Arch, Kali) 
+                        и Windows (7, 10, 11), а также разработки и поддержки серверной инфраструктуры.
+                    </p>
+                    <a href="#contact" class="btn-primary">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="halftone-bg-section" data-halftone="services"></div>
+        <div class="container">
+            <h2 class="section-title center">Мои <span class="highlight">услуги</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Информационная безопасность</h3>
+                    <p>
+                        Аудит безопасности, настройка систем защиты информации, 
+                        работа с SIEM-системами и мониторинг инцидентов безопасности.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Администрирование серверов</h3>
+                    <p>
+                        Настройка и поддержка Linux и Windows серверов, 
+                        развертывание инфраструктуры, мониторинг работоспособности систем.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Сетевая инфраструктура</h3>
+                    <p>
+                        Построение и развитие сетевой инфраструктуры, 
+                        настройка VPN, работа с сетевым оборудованием и локальными сетями.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title center">Опыт <span class="highlight">работы</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Июнь 2025 — Июль 2025</div>
+                    <div class="timeline-content">
+                        <h3>Специалист по информационной безопасности</h3>
+                        <h4>Московский метрополитен</h4>
+                        <p>
+                            Прохождение производственной практики и участие во внедрении SIEM-системы 
+                            RuSIEM Secret Net Studio. Изучение полного цикла работ от анализа инфраструктуры 
+                            до установки и настройки компонентов системы. Работа с подключением источников 
+                            событий, настройкой правил корреляции и формированием отчетов.
+                        </p>
+                        <p>
+                            Получен практический опыт работы с Linux Astra Special Edition в качестве 
+                            платформы для развертывания защищенных сервисов.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="halftone-bg-section" data-halftone="education"></div>
+        <div class="container">
+            <h2 class="section-title center">Образование</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>МИРЭА — Российский технологический университет</h3>
+                    <p class="education-period">2026</p>
+                    <p>Среднее специальное образование</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Колледж программирования и кибербезопасности</h3>
+                    <p class="education-period">2026</p>
+                    <p>Обеспечение информационной безопасности автоматизированных систем</p>
+                    <p>Оператор ЭВМ</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Decorative Divider -->
+    <div class="halftone-divider" data-divider="1"></div>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="halftone-bg-section" data-halftone="certificates"></div>
+        <div class="container">
+            <h2 class="section-title center">Сертификаты</h2>
+            <div class="certificates-grid">
+                <a href="https://cloud.mail.ru/public/Tf6o/DB1TCmyaD" target="_blank" class="certificate-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>MITIGATOR Getting Started</h3>
+                    <p>2025</p>
+                </a>
+                <a href="https://cloud.mail.ru/public/xmSe/UypmzRDCp" target="_blank" class="certificate-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Network Traffic Analysis and Troubleshooting Specialist (NTA&TS)</h3>
+                    <p>2025</p>
+                </a>
+                <a href="https://stepik.org/cert/3028633" target="_blank" class="certificate-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>STEPIK «Профессия — Белый Хакер»</h3>
+                    <p>2025</p>
+                </a>
+                <a href="https://stepik.org/cert/2971783" target="_blank" class="certificate-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>STEPIK Специалист по противодействию кибератакам</h3>
+                    <p>2025</p>
+                </a>
+                <a href="https://cloud.mail.ru/public/Tf6o/DB1TCmyaD" target="_blank" class="certificate-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Анализ Защищенности Веб-Приложений</h3>
+                    <p>2025</p>
+                </a>
+                <a href="https://cloud.mail.ru/home/Почтовые%20вложения/Certificate%20for%20Маркаров%20Михаил%20for%20_Основы%20Linux_.pdf" target="_blank" class="certificate-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Основы Linux</h3>
+                    <p>2025</p>
+                </a>
+                <a href="https://cloud.mail.ru/public/ECNq/Tuvqt7qeB" target="_blank" class="certificate-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Основы виртуализации. Ключевые этапы и технологии в развитии виртуализации</h3>
+                    <p>2025</p>
+                </a>
+                <a href="https://study-school.action.group/certificateview/43d3d68c-e6f6-461b-aacb-0679385799f3" target="_blank" class="certificate-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Старт к управлению бизнесом оцифруй свои навыки</h3>
+                    <p>2024</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Decorative Divider -->
+    <div class="halftone-divider" data-divider="2"></div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="halftone-bg-section" data-halftone="skills"></div>
+        <div class="container">
+            <h2 class="section-title center">Навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Операционные системы</h3>
+                    <ul class="skill-list">
+                        <li>Linux</li>
+                        <li>Ubuntu</li>
+                        <li>Kali Linux</li>
+                        <li>Astra Linux</li>
+                        <li>Arch Linux</li>
+                        <li>Windows 7/10/11</li>
+                        <li>Windows Server</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Безопасность</h3>
+                    <ul class="skill-list">
+                        <li>SIEM</li>
+                        <li>RuSIEM</li>
+                        <li>Secret Net Studio</li>
+                        <li>Аудит безопасности</li>
+                        <li>VPN</li>
+                        <li>Защита информации</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Программирование</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>Bash</li>
+                        <li>PowerShell</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Базы данных</h3>
+                    <ul class="skill-list">
+                        <li>PostgreSQL</li>
+                        <li>MS Access</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Администрирование</h3>
+                    <ul class="skill-list">
+                        <li>Администрирование серверов</li>
+                        <li>Настройка ПК</li>
+                        <li>Локальные сети</li>
+                        <li>Сетевая инфраструктура</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Языки</h3>
+                    <ul class="skill-list">
+                        <li>Русский (Родной)</li>
+                        <li>Английский (B2)</li>
+                        <li>Французский (A1)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Divider Section -->
+    <section id="contact-divider" class="experience">
+        <div class="container">
+            <h2 class="section-title center">Связь <span class="highlight">со мной</span></h2>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="halftone-bg-section" data-halftone="contact"></div>
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-label">Телефон:</span>
+                        <a href="tel:+79853975658" class="contact-value">+7 (985) 397-56-58</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Email:</span>
+                        <a href="mailto:markarov19@bk.ru" class="contact-value">markarov19@bk.ru</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Telegram:</span>
+                        <a href="https://t.me/seatsinister" target="_blank" class="contact-value">@seatsinister</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Местоположение:</span>
+                        <span class="contact-value">Бутово, Московская область</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright © 2026 by Михаил Маркаров. All Rights Reserved.</p>
+            <button class="scroll-top" id="scrollTop">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Schema.org Person для SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Михаил Маркаров",
+        "jobTitle": "Специалист по информационной безопасности",
+        "email": "markarov19@bk.ru",
+        "url": "https://github.com/SeatSinister",
+        "sameAs": [
+            "https://github.com/SeatSinister",
+            "https://t.me/seatsinister",
+            "https://vk.com/idseat2323"
+        ],
+        "knowsAbout": ["SIEM", "Linux", "Информационная безопасность", "Администрирование серверов"]
+    }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
